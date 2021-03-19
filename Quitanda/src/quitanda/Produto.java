@@ -3,6 +3,7 @@ package quitanda;
 
 class Produto {
 
+    
 //     Atributos
    public String campoCodigo;
    public String campoDescricao;
@@ -11,7 +12,7 @@ class Produto {
    
    
    public Produto(String codigo,String preco,String desc,String qtd){
-       this.campoCodigo = codigo;
+        this.campoCodigo = codigo;
        this.campoDescricao = desc;
        this.campoPreco = preco;
        this.campoQtd = qtd;
